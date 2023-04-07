@@ -1,10 +1,11 @@
-
+import { BrowserRouter } from "react-router-dom";
+import RoutesProvider from "./routes/RoutesProvider";
 
 function App() {
   return (
-    <div >
-      hello app
-    </div>
+    <BrowserRouter >
+      <RoutesProvider />
+    </BrowserRouter>
   );
 }
 
